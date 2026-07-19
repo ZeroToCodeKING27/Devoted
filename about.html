@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>WELDORK - Welding Website Template</title>
+    <title>eLEARNING - eLearning HTML Template</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -14,12 +14,11 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
@@ -34,432 +33,416 @@
 
 <body>
    <!-- Spinner Start -->
-<div id="spinner"
-    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-    <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+<div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
 </div>
 <!-- Spinner End -->
 
 
-<!-- Topbar Start -->
-<div class="container-fluid bg-primary text-white d-none d-lg-flex wow fadeIn" data-wow-delay="0.1s">
-    <div class="container py-3">
-        <div class="d-flex align-items-center">
-            <a href="index.html">
-                <h2 class="text-white fw-bold m-0">DEVOTED WELDING & PROJECTS</h2>
-            </a>
-
-            <div class="ms-auto d-flex align-items-center">
-                <small class="ms-4">
-                    <i class="fa fa-map-marker-alt me-3"></i>Your Area, South Africa
-                </small>
-
-                <small class="ms-4">
-                    <i class="fa fa-envelope me-3"></i>info@devotedwelding.co.za
-                </small>
-
-                <small class="ms-4">
-                    <i class="fa fa-phone-alt me-3"></i>+27 XX XXX XXXX
-                </small>
-
-                <div class="ms-3 d-flex">
-                    <a class="btn btn-sm-square btn-light text-primary ms-2" href="">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-
-                    <a class="btn btn-sm-square btn-light text-primary ms-2" href="">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-
-                    <a class="btn btn-sm-square btn-light text-primary ms-2" href="">
-                        <i class="fab fa-whatsapp"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Topbar End -->
-
-
 <!-- Navbar Start -->
-<div class="container-fluid bg-white sticky-top wow fadeIn" data-wow-delay="0.1s">
-    <div class="container">
-        <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
+<nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+    <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <h2 class="m-0 text-primary">
+            <i class="fa fa-tools me-3"></i>
+        </h2>
+    </a>
 
-                    <a href="index.html" class="navbar-brand d-lg-none d-flex align-items-center justify-content-center">
-    <img src="img/ChatGPT Image Jul 16, 2026, 09_37_47 AM.png" alt="Logo" style="height:60px;">
-</a>
+    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-            <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
-                data-bs-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="about.html" class="nav-item nav-link active">About</a>
+            <a href="services.html" class="nav-item nav-link">Services</a>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+        </div>
 
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-
-                <div class="navbar-nav">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link active">About</a>
-                    <a href="service.html" class="nav-item nav-link">Services</a>
-
-                   
-
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
-                </div>
-
-                <div class="ms-auto d-none d-lg-block">
-                    <a href="contact.html" class="btn btn-primary py-2 px-3">
-                        Request a Quote
-                    </a>
-                </div>
-
-            </div>
-        </nav>
+        <a href="tel:0786392728" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">
+            Call Now
+            <i class="fa fa-phone ms-3"></i>
+        </a>
     </div>
-</div>
+</nav>
 <!-- Navbar End -->
 
 
-<!-- Page Header Start -->
-<div class="container-fluid page-header pt-5 mb-6 wow fadeIn" data-wow-delay="0.1s">
-    <div class="container text-center pt-5">
+<!-- Header Start -->
+<div class="container-fluid bg-primary py-5 mb-5 page-header">
+    <div class="container py-5">
         <div class="row justify-content-center">
-            <div class="col-lg-7">
-                <div class="bg-white p-5">
+            <div class="col-lg-10 text-center">
+                <h1 class="display-3 text-white animated slideInDown">About HouseTech Solutions</h1>
 
-                    <h1 class="display-6 text-uppercase mb-3 animated slideInDown">
-                        About Devoted Welding & Projects
-                    </h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item">
+                            <a class="text-white" href="index.html">Home</a>
+                        </li>
+                        <li class="breadcrumb-item text-white active" aria-current="page">
+                            About
+                        </li>
+                    </ol>
+                </nav>
 
-                    <nav aria-label="breadcrumb animated slideInDown">
-                        <ol class="breadcrumb justify-content-center mb-0">
-                            <li class="breadcrumb-item">
-                                <a href="index.html">Home</a>
-                            </li>
-                            <li class="breadcrumb-item">
-                                <a href="about.html">About</a>
-                            </li>
-                            <li class="breadcrumb-item active" aria-current="page">
-                                About Us
-                            </li>
-                        </ol>
-                    </nav>
-
-                </div>
             </div>
         </div>
     </div>
 </div>
-<!-- Page Header End -->
-<!-- About Start -->
-<div class="container-fluid pt-6 pb-6">
+<!-- Header End -->
+
+<!-- Service Start -->
+<div class="container-xxl py-5">
     <div class="container">
-        <div class="row g-5">
-            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                <div class="about-img">
-                    <img class="img-fluid w-100" src="img/ChatGPT Image Jul 11, 2026, 07_18_42 PM.png">
+
+        <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3">
+                Our Services
+            </h6>
+            <h1 class="mb-3">Professional Appliance Repair Services</h1>
+            <p class="text-muted mx-auto" style="max-width:700px;">
+                HouseTech Solutions provides fast, reliable, and affordable appliance repairs
+                for homes and businesses throughout Gauteng Province and surrounding areas.
+            </p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Air Conditioning -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item text-center p-4 h-100 shadow-sm rounded">
+                    <div class="mb-4">
+                        <i class="fas fa-wind fa-3x text-primary"></i>
+                    </div>
+
+                    <h5 class="mb-3">Air Conditioning</h5>
+
+                    <p class="mb-0">
+                        Installation, maintenance and repairs for residential and commercial air-conditioning systems.
+                    </p>
                 </div>
             </div>
 
-            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                <h1 class="display-6 text-uppercase mb-4">
-                    Trusted Welding, Steel Fabrication & Mechanical Services
+            <!-- Fridges -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-item text-center p-4 h-100 shadow-sm rounded">
+                    <div class="mb-4">
+                        <i class="fas fa-snowflake fa-3x text-primary"></i>
+                    </div>
+
+                    <h5 class="mb-3">Fridges & Freezers</h5>
+
+                    <p class="mb-0">
+                        Fast repairs for domestic and commercial refrigeration equipment.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Cold Rooms -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item text-center p-4 h-100 shadow-sm rounded">
+                    <div class="mb-4">
+                        <i class="fas fa-warehouse fa-3x text-primary"></i>
+                    </div>
+
+                    <h5 class="mb-3">Cold Rooms</h5>
+
+                    <p class="mb-0">
+                        Professional servicing and repairs for commercial cold room systems.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Washing Machines -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="service-item text-center p-4 h-100 shadow-sm rounded">
+                    <div class="mb-4">
+                        <i class="fas fa-soap fa-3x text-primary"></i>
+                    </div>
+
+                    <h5 class="mb-3">Washing Machines</h5>
+
+                    <p class="mb-0">
+                        Diagnosis and repair services for all major washing machine brands.
+                    </p>
+                </div>
+            </div>
+
+            <!-- TVs -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item text-center p-4 h-100 shadow-sm rounded">
+                    <div class="mb-4">
+                        <i class="fas fa-tv fa-3x text-primary"></i>
+                    </div>
+
+                    <h5 class="mb-3">TV Repairs</h5>
+
+                    <p class="mb-0">
+                        Reliable repair solutions for LED, LCD, Smart TVs and other television models.
+                    </p>
+                </div>
+            </div>
+
+            <!-- General -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="service-item text-center p-4 h-100 shadow-sm rounded">
+                    <div class="mb-4">
+                        <i class="fas fa-tools fa-3x text-primary"></i>
+                    </div>
+
+                    <h5 class="mb-3">General Appliance Repairs</h5>
+
+                    <p class="mb-0">
+                        We also repair a wide range of household and commercial appliances with quality workmanship.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!-- Service End -->
+<!-- About Start -->
+<div class="container-xxl py-5 bg-light">
+    <div class="container">
+
+        <div class="row align-items-center g-5">
+
+            <!-- Image -->
+            <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                <div class="position-relative">
+
+                    <img src="img/dfdff.webp"
+                        class="img-fluid rounded-4 shadow-lg w-100"
+                        alt="HouseTech Solutions">
+
+                    <div class="position-absolute bottom-0 end-0 bg-primary text-white p-4 rounded-4 shadow"
+                        style="transform: translate(20px,20px);">
+
+                        <h2 class="mb-0 fw-bold">10+</h2>
+                        <small>Years Experience</small>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+
+                <h6 class="text-primary text-uppercase fw-bold mb-3">
+                    About HouseTech Solutions
+                </h6>
+
+                <h1 class="display-5 fw-bold mb-4">
+                    Reliable Appliance Repair Experts You Can Trust
                 </h1>
 
-                <p class="mb-4">
-                    At Devoted Welding & Projects, we provide professional welding, steel fabrication,
-                    and mechanical repair services for residential, commercial, and industrial clients.
-                    From custom gates and burglar bars to generator repairs and structural steel work,
-                    we deliver durable workmanship, quality materials, and reliable service on every project.
+                <p class="text-muted mb-3">
+                    HouseTech Solutions provides fast, affordable and dependable appliance
+                    repair services throughout Gauteng and surrounding areas.
                 </p>
 
-                <div class="row g-5 mb-4">
+                <p class="text-muted mb-4">
+                    Our experienced technicians repair residential and commercial appliances
+                    using quality parts, professional workmanship and quick turnaround times.
+                </p>
+
+                <!-- Features -->
+                <div class="row g-3 mb-4">
 
                     <div class="col-sm-6">
-                        <div class="d-flex align-items-center">
-                            <div class="flex-shrink-0 btn-xl-square bg-light me-3">
-                                <i class="fa fa-users-cog fa-2x text-primary"></i>
-                            </div>
-                            <h5 class="lh-base text-uppercase mb-0">
-                                Skilled Welding Professionals
-                            </h5>
+                        <div class="d-flex align-items-center p-3 bg-white rounded-3 shadow-sm">
+                            <i class="fa fa-check-circle text-primary fs-4 me-3"></i>
+                            <span>Certified Technicians</span>
                         </div>
                     </div>
 
                     <div class="col-sm-6">
-                        <div class="d-flex align-items-center">
-                            <div class="flex-shrink-0 btn-xl-square bg-light me-3">
-                                <i class="fa fa-tachometer-alt fa-2x text-primary"></i>
-                            </div>
-                            <h5 class="lh-base text-uppercase mb-0">
-                                Reliable & On-Time Delivery
-                            </h5>
+                        <div class="d-flex align-items-center p-3 bg-white rounded-3 shadow-sm">
+                            <i class="fa fa-check-circle text-primary fs-4 me-3"></i>
+                            <span>Affordable Pricing</span>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="d-flex align-items-center p-3 bg-white rounded-3 shadow-sm">
+                            <i class="fa fa-check-circle text-primary fs-4 me-3"></i>
+                            <span>Fast Response Time</span>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="d-flex align-items-center p-3 bg-white rounded-3 shadow-sm">
+                            <i class="fa fa-check-circle text-primary fs-4 me-3"></i>
+                            <span>Quality Guaranteed</span>
                         </div>
                     </div>
 
                 </div>
 
-                <p>
-                    <i class="fa fa-check-square text-primary me-3"></i>
-                    Custom steel fabrication for residential and commercial projects.
-                </p>
+                <!-- Statistics -->
+                <div class="row text-center mb-4">
 
-                <p>
-                    <i class="fa fa-check-square text-primary me-3"></i>
-                    Professional welding, repairs, and structural steel solutions.
-                </p>
+                    <div class="col-4">
+                        <h2 class="fw-bold text-primary">500+</h2>
+                        <small class="text-muted">Repairs</small>
+                    </div>
 
-                <p>
-                    <i class="fa fa-check-square text-primary me-3"></i>
-                    Mechanical repairs, generator servicing, and project maintenance.
-                </p>
+                    <div class="col-4">
+                        <h2 class="fw-bold text-primary">98%</h2>
+                        <small class="text-muted">Success Rate</small>
+                    </div>
 
-                <div class="border border-5 border-primary p-4 text-center mt-4">
-                    <h4 class="lh-base text-uppercase mb-0">
-                        Quality Craftsmanship, Reliable Service, and Solutions Built to Last
-                    </h4>
+                    <div class="col-4">
+                        <h2 class="fw-bold text-primary">24/7</h2>
+                        <small class="text-muted">Support</small>
+                    </div>
+
                 </div>
+
+                <a href="contact.html" class="btn btn-primary btn-lg px-5 rounded-pill">
+                    Contact Us
+                </a>
 
             </div>
+
         </div>
+
     </div>
 </div>
 <!-- About End -->
 
+<!-- Footer Start -->
+<div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
 
-<!-- Features Start -->
-<div class="container-fluid pt-6 pb-6">
-    <div class="container pt-4">
-        <div class="row g-0 feature-row wow fadeIn" data-wow-delay="0.1s">
+        <div class="row g-5">
 
-            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                <div class="feature-item border h-100">
-                    <div class="feature-icon btn-xxl-square bg-primary mb-4 mt-n4">
-                        <i class="fa fa-hammer fa-2x text-white"></i>
+            <!-- Quick Links -->
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3">Quick Links</h4>
+                <a class="btn btn-link" href="index.html">Home</a>
+                <a class="btn btn-link" href="about.html">About Us</a>
+                <a class="btn btn-link" href="services.html">Services</a>
+                <a class="btn btn-link" href="contact.html">Contact</a>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3">Contact</h4>
+
+                <p class="mb-2">
+                    <i class="fa fa-map-marker-alt me-3"></i>
+                    Gauteng Province & Surrounding Areas
+                </p>
+
+                <p class="mb-2">
+                    <i class="fa fa-phone-alt me-3"></i>
+                    Call: 078 639 2728
+                </p>
+
+                <p class="mb-2">
+                    <i class="fab fa-whatsapp me-3"></i>
+                    WhatsApp: 078 904 0568
+                </p>
+
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social" href="https://wa.me/27789040568">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+
+                    <a class="btn btn-outline-light btn-social" href="tel:0786392728">
+                        <i class="fa fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Gallery -->
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3">Our Services</h4>
+
+                <div class="row g-2 pt-2">
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
                     </div>
-
-                    <div class="p-5 pt-0">
-                        <h5 class="text-uppercase mb-3">Expert Fabrication</h5>
-
-                        <p>
-                            We manufacture custom gates, burglar bars, steel doors,
-                            carports, and structural steel components.
-                        </p>
-
-                        <a class="position-relative text-body text-uppercase small d-flex justify-content-between"
-                            href="#">
-                            <b class="bg-white pe-3">Read More</b>
-                            <i class="bi bi-arrow-right bg-white ps-3"></i>
-                        </a>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.4s">
-                <div class="feature-item border h-100">
-                    <div class="feature-icon btn-xxl-square bg-primary mb-4 mt-n4">
-                        <i class="fa fa-dollar-sign fa-2x text-white"></i>
-                    </div>
+            <!-- Call To Action -->
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3">Need Fast Repairs?</h4>
 
-                    <div class="p-5 pt-0">
-                        <h5 class="text-uppercase">Competitive Pricing</h5>
+                <p>
+                    Contact HouseTech Solutions today for fast, reliable appliance
+                    repair services throughout Gauteng and surrounding areas.
+                </p>
 
-                        <p>
-                            We provide cost-effective solutions without compromising
-                            on quality, durability, or workmanship.
-                        </p>
-
-                        <a class="position-relative text-body text-uppercase small d-flex justify-content-between"
-                            href="#">
-                            <b class="bg-white pe-3">Read More</b>
-                            <i class="bi bi-arrow-right bg-white ps-3"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                <div class="feature-item border h-100">
-                    <div class="feature-icon btn-xxl-square bg-primary mb-4 mt-n4">
-                        <i class="fa fa-check-double fa-2x text-white"></i>
-                    </div>
-
-                    <div class="p-5 pt-0">
-                        <h5 class="text-uppercase">Quality Workmanship</h5>
-
-                        <p>
-                            Every welding and fabrication project is completed with
-                            attention to detail and long-lasting results.
-                        </p>
-
-                        <a class="position-relative text-body text-uppercase small d-flex justify-content-between"
-                            href="#">
-                            <b class="bg-white pe-3">Read More</b>
-                            <i class="bi bi-arrow-right bg-white ps-3"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.6s">
-                <div class="feature-item border h-100">
-                    <div class="feature-icon btn-xxl-square bg-primary mb-4 mt-n4">
-                        <i class="fa fa-tools fa-2x text-white"></i>
-                    </div>
-
-                    <div class="p-5 pt-0">
-                        <h5 class="text-uppercase">Mechanical Repairs</h5>
-
-                        <p>
-                            We also specialize in generator servicing, equipment
-                            repairs, and general mechanical maintenance.
-                        </p>
-
-                        <a class="position-relative text-body text-uppercase small d-flex justify-content-between"
-                            href="#">
-                            <b class="bg-white pe-3">Read More</b>
-                            <i class="bi bi-arrow-right bg-white ps-3"></i>
-                        </a>
-                    </div>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <a href="tel:0786392728" class="btn btn-primary py-3 w-100">
+                        Call Now
+                    </a>
                 </div>
             </div>
 
         </div>
     </div>
-</div>
-<!-- Features End -->
 
-  <!-- Newsletter Start -->
-<div class="container-fluid newsletter mt-6 wow fadeIn" data-wow-delay="0.1s">
-    <div class="container pb-5">
-        <div class="bg-white p-5 mb-5">
-            <div class="row g-5">
-
-                <div class="col-md-6 wow fadeIn" data-wow-delay="0.3s">
-                    <h1 class="display-6 text-uppercase mb-4">Request a Free Quote</h1>
-
-                    <div class="d-flex">
-                        <i class="far fa-envelope-open fa-3x text-primary me-4"></i>
-
-                        <p class="fs-5 fst-italic mb-0">
-                            Planning a welding, fabrication, or mechanical repair project? Send us your email and we'll get in touch to discuss your requirements.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="form-floating mb-3">
-                        <input type="email" class="form-control border-0 bg-light" id="mail" placeholder="Your Email">
-                        <label for="mail">Your Email Address</label>
-                    </div>
-
-                    <button class="btn btn-primary w-100 py-3" type="submit">
-                        Request a Quote
-                    </button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Newsletter End -->
-
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark footer py-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-uppercase text-light mb-4">Our Office</h5>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>147 second Avenue Bezuidenhout Valley</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>* 078 065 4529 </p>
-                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>mugwagwacollen@gmail.com</p>
-                    <div class="d-flex pt-3">
-                        <a class="btn btn-square btn-light me-2" href=""><i
-                                class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-light me-2" href=""><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-light me-2" href=""><i
-                                class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-light me-2" href=""><i
-                                class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-uppercase text-light mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-uppercase text-light mb-4">Business Hours</h5>
-                    <p class="text-uppercase mb-0">Monday - Friday</p>
-                    <p>09:00 am - 07:00 pm</p>
-                    <p class="text-uppercase mb-0">Saturday</p>
-                    <p>09:00 am - 12:00 pm</p>
-                    <p class="text-uppercase mb-0">Sunday</p>
-                    <p>Closed</p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-uppercase text-light mb-4">Gallery</h5>
-                    <div class="row g-1">
-                        <div class="col-4">
-                            <img class="img-fluid" src="img/service-1.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid" src="img/service-2.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid" src="img/service-3.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid" src="img/service-4.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid" src="img/service-5.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid" src="img/service-6.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Footer End -->
-    <!-- Copyright Start -->
-    <div class="container-fluid text-body copyright py-4">
-        <div class="container">
+    <div class="container">
+        <div class="copyright">
             <div class="row">
+
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="fw-semi-bold" href="#">Your Site Name</a>, All Right Reserved.
+                    &copy;
+                    <a class="border-bottom" href="#">
+                        HouseTech Solutions
+                    </a>,
+                    All Rights Reserved.
                 </div>
+
                 <div class="col-md-6 text-center text-md-end">
-                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                    Designed By <a class="fw-semi-bold" href="https://htmlcodex.com">HTML Codex</a> Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a></a>
+                    <div class="footer-menu">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="services.html">Services</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
-    <!-- Copyright End -->
-
-
+</div>
+<!-- Footer End -->
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i
-            class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Template Javascript -->
